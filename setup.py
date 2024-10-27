@@ -7,13 +7,13 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name='AnonyMate',
-    version='0.1.2',
+    version='0.1.6',
     description='A comprehensive toolkit for data anonymization, masking, and encryption.',
     long_description=long_description,  
     long_description_content_type='text/markdown',  
     author='Pasindu Bandara',
     author_email='pasindubandara99@gmail.com',
-    url='https://github.com/yourusername/AnonyMate',  
+    url='https://github.com/PasinduBandaraa/AnonyMate',  
     packages=find_packages(include=["anonymate", "anonymate.*"]),
     install_requires=[
         'cryptography',
